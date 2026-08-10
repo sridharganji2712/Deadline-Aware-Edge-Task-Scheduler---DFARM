@@ -1,4 +1,4 @@
-# DFARM Edge Scheduling — iFogSim2 Implementation
+# DFARM Edge Scheduling — iFogSim Implementation
 
 ## Introduction
 
