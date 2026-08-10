@@ -1,0 +1,31 @@
+package org.fog.dfarm.trace;
+
+/** Every kind of scheduling-relevant action that gets a row in Sheet 2 (Task Event Timeline). */
+public enum TraceEventType {
+    TASK_ARRIVED,
+    SCHEDULING_TICK,
+    PRIORITY_EVALUATED,
+    REPLICATION_DECISION,
+    DIRECT_ASSIGN,
+    QUEUE_ADJUSTMENT,
+    VM_ACQUIRED_RELEASED,
+    VM_ACQUIRED_FRESH,
+    CROSS_NODE_OFFLOAD,
+    CLOUD_OFFLOAD,
+    TASK_COMMITTED,
+    TASK_REJECTED,
+    REPLICA_CREATED,
+    REPLICA_ACTIVATED,
+    REPLICA_DISCARDED,
+    REPLICA_LOST,
+    TASK_SUBMITTED,
+    EXECUTION_STARTED,
+    EXECUTION_FINISHED,
+    DOWNLINK_COMPLETE,
+    NODE_FAILURE,
+    NODE_RECOVERY,
+    TASK_CANCELLED,
+    TASK_RESUBMITTED,
+    FAILOVER,
+    TASK_LOST
+}
